@@ -55,6 +55,10 @@ img {
 /* navigation */
 
 
+header {
+    padding-left: 40px;
+}
+
 header nav {
     padding: 40px 10%;
     width: 100%;
@@ -128,7 +132,7 @@ header .logo {
 
 header .line {
     bottom: 0;
-
+    left: 0;
 }
 
 
@@ -137,7 +141,7 @@ header .line {
 .branding {
     background-color: #C7D9BA;
     position: relative;
-    padding: 9% 0;
+    padding: 12% 0 9% 0;
 }
 
 .branding .line {
@@ -161,7 +165,7 @@ header .line {
 }
 
 .branding .text {
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
     padding: 3% 0 0 0;
@@ -171,11 +175,12 @@ header .line {
 .branding h3 {
     letter-spacing: 1px;
     font-weight: 300;
+    font-size: 0.9rem;
 }
 
 .branding p {
     font-family: "Open Sans";
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     line-height: 20px;
     letter-spacing: 1px;
 }
@@ -190,7 +195,7 @@ header .line {
 
 .blogWrapper {
     text-align: center;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     padding: 10% 0;
 }
@@ -211,7 +216,7 @@ header .line {
 }
 
 .blogContent figure {
-    width: 40%;
+    width: 30%;
     margin: 0 auto;
 }
 
@@ -221,8 +226,8 @@ header .line {
 
 .blogContent p {
     font-family: "Open Sans";
-    font-size: 0.75rem;
-    color: rgb(147, 148, 146);
+    font-size: 0.8rem;
+    color: #999999;
     font-style: italic;
     line-height: 30px;
     padding-top: 5%;
@@ -235,15 +240,24 @@ header .line {
     font-size: 2rem;
 }
 
+.angle {
+    color: #999999;
+}
+
+.angle:hover {
+    color: black;
+}
+
 /* features */
 
 .features {
     background-image: url(../assets/home-4.jpeg);
-    padding: 10% 3% 5% 0;
+    padding: 9% 3% 5% 0;
+    background-size: cover;
 }
 
 .featuresWrapper {
-    width: 45%;
+    width: 50%;
     float: right;
 }
 
@@ -274,6 +288,7 @@ header .line {
     border: rgb(59, 59, 59) solid 2px;
     padding: 10px;
     border-radius: 50%;
+    font-size: 1.5rem;
     
 }
 
@@ -288,13 +303,14 @@ header .line {
 .featuresText h3 {
     margin: 0;
     letter-spacing: 1px;
+    font-size: 0.75rem;
 }
 
 .featuresText p {
     font-family: "Open Sans";
-    font-size: 0.65rem;
-    line-height: 25px;
-    color: rgb(172, 169, 169);
+    font-size: 0.555rem;
+    line-height: 20px;
+    color: #999999;
 }
 
 /* team */
@@ -307,7 +323,7 @@ header .line {
 
 .team h2 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-top: 30px;
 }
 
@@ -327,20 +343,21 @@ header .line {
     width: calc(50% - 20px);
     margin: 10px;
     float: left;
-    background-color: #F2F2F4;
-    padding: 14px;
+    background-color: #F6F6F6;
+    padding: 50px 20px 20px 20px;
+    height: 193px;
 }
 
-.teamWrapper .text h3,
-.teamWrapper .work {
-    color: #646363;
+.teamWrapper .text h3 {
+    font-size:0.8rem;
 }
+
 
 .teamWrapper .text p {
-    color: rgb(172, 169, 169);
+    color: #999999;
     font-family: "Open Sans";
-    font-size: 0.7rem;
-    line-height: 25px;
+    font-size: 0.55rem;
+    line-height: 24px;
 
 }
 
@@ -356,6 +373,8 @@ header .line {
     float: left;
     text-align: center;
     padding: 70px 30px;
+    font-size: 0.8rem;
+
 }
 
 /* porfolio */
@@ -373,25 +392,31 @@ header .line {
     padding: 250px 100px 0px 100px;
 }
 
+.portfolio h3 {
+    margin-bottom: 50px;
+}
+
 .portfolio .text p {
     font-family: "Open Sans";
     font-size: 0.7rem;
     line-height: 25px;
-    color: rgb(172, 169, 169);
+    color: #666666;
 }
 
 .portfolio .view {
     background: white;
     padding: 10px 40px;
-    width: 40%;
+    width: 45%;
     margin: 30px 140px;
 }
 
 .portfolio .view p {
     font-family: "Montserrat";
     color: black;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .portfolio .picture {
@@ -428,7 +453,7 @@ header .line {
 .title p {
     font-size: 0.7rem;
     font-family: "Open Sans";
-    color: rgb(172, 169, 169);
+    color: #999999;
 
 }
 
@@ -437,13 +462,13 @@ header .line {
 }
 
 .writerInfo {
-    border-bottom: rgb(172, 169, 169) solid 0.5px;
+    border-bottom: #999999 solid 0.5px;
 }
 
 .writerInfo p {
     font-size: 0.7rem;
     font-family: "Open Sans";
-    color: rgb(172, 169, 169);
+    color: #999999;
     margin-top: 0;
 }
 
@@ -485,7 +510,7 @@ header .line {
     font-family: "Open Sans";
     margin-top: 25px;
     line-height: 25px;
-    color: rgb(172, 169, 169);
+    color: #999999;
 }
 
 .secondaryText .bold {
@@ -512,7 +537,7 @@ header .line {
 .related h2 {
     font-weight: 700;
     padding: 70px 0 20px 0;
-    border-bottom: rgb(172, 169, 169) solid 0.5px;
+    border-bottom: #999999 solid 0.5px;
 }
 
 .relatedFloat {
@@ -546,7 +571,7 @@ header .line {
 .comments h2 {
     font-weight: 700;
     padding: 70px 0 20px 0;
-    border-bottom: rgb(172, 169, 169) solid 0.5px;
+    border-bottom: #999999 solid 0.5px;
 }
 
 .commentBox {
@@ -564,7 +589,7 @@ header .line {
 .speechBubble { 
     position: relative;
     border-radius: .4em; 
-    background-color: #F2F2F4;
+    background-color: #f6f6f6;
     float: left;
     
 } 
@@ -578,7 +603,7 @@ header .line {
     height: 0; 
     border: 29px solid transparent; 
     border-width: 10px 50px 28px 0;
-    border-right-color: #F2F2F4; 
+    border-right-color: #f6f6f6;
     border-left: 0; 
     margin-top: 19px; 
     margin-left: -29px; 
@@ -588,7 +613,7 @@ header .line {
 
 .commentText {
     width: 85%;
-    background-color: #F2F2F4;
+    background-color: #f6f6f6;
     float: left;
     padding: 20px;
 }
@@ -605,7 +630,7 @@ span.reply {
     font-family: "Open Sans";
     margin-top: 25px;
     line-height: 25px;
-    color: rgb(172, 169, 169);
+    color: #666666;
     font-weight: 400;
     font-style: italic;
     text-transform: capitalize; 
@@ -616,7 +641,7 @@ span.reply {
     font-family: "Open Sans";
     margin: 15px 0;
     line-height: 25px;
-    color: rgb(121, 118, 118);
+    color: #666666;
 
 }
 
@@ -625,13 +650,8 @@ span.reply {
     font-size: 0.6rem;
     font-family: "Open Sans";
     line-height: 25px;
-    color: rgb(172, 169, 169);
+    color: #999999;
 }
-
-
-/* CONTACT PAGE */
-
-
 
 
 /* FORM SECTION IN BLOG AND CONTACT PAGES */
@@ -643,7 +663,7 @@ span.reply {
 .leaveComment h2 {
     font-weight: 700;
     padding: 70px 0 20px 0;
-    border-bottom: rgb(172, 169, 169) solid 0.5px;
+    border-bottom: #999999 solid 0.5px;
 }
 
 .firstRowForm {
@@ -653,7 +673,10 @@ span.reply {
 .firstRowForm input {
     float: left;
     margin-bottom: 30px;
-    border-bottom: rgb(172, 169, 169) 1px solid;
+    border-bottom: #999999 1px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
 }
 
 .userName {
@@ -676,10 +699,11 @@ textarea {
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: rgb(172, 169, 169) 1px solid;
+    border-bottom: #999999 1px solid;
     font-family: "Open Sans";
     font-size: 0.65rem;
     line-height: 25px;
+    resize: none;
 }
 
 .embedForm input:focus,
@@ -700,6 +724,107 @@ textarea {
     padding-bottom: 10px;
 }
 
+.embedForm button:hover {
+    font-weight: 700;
+}
+
+.embedForm form:focus-within {
+    color: black;
+}
+
+.embedForm form:focus-within input {
+     border-bottom: black solid 1px;
+}
+
+.embedForm form:focus-within textarea {
+     border-bottom: black solid 1px;
+}
+
+
+/* CONTACT PAGE */
+
+.contactBackground {
+    background-image: url(../assets/contact-1.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contactWrapper {
+    max-width: 66%;
+    margin: 0 auto;
+}
+
+.contactWrapper h1 {
+    margin: 0;
+    padding-top: 100px;
+    width: 250px;
+}
+
+.details { 
+    padding-top:80px;
+}
+
+.details h3 {
+    font-weight: 700;
+}
+
+.details p {
+    font-size: 0.7rem;
+    font-family: "Open Sans";
+    line-height: 25px;
+    color: #999999;
+    width: 60%;
+}
+
+.ourInfo {
+    margin: 100px 0;
+}
+
+.infoBox {
+    float: left;
+    width: 33.33%;
+    padding-left: 70px;
+}
+
+.infoBox h4 {
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+}
+
+.infoBox p {
+    font-size: 0.7rem;
+    font-family: "Open Sans";
+    color: rgb(139, 138, 138);
+    margin-top: 15px;
+}
+
+/* contact form */
+
+.inTouch {
+    clear: both;
+}
+
+.inTouch h3 {
+    font-weight: 700;
+}
+
+.inTouch p {
+    font-size: 0.7rem;
+    font-family: "Open Sans";
+    color: #999999;
+}
+
+.inTouch .embedForm { 
+    margin: 100px 0;
+}
+
+.contactBackground2 {
+    background-image: url(../assets/contact-2.jpeg);
+    height: 516px;
+}
+
 
 
 
@@ -707,7 +832,7 @@ textarea {
 
 footer {
     background-color: #333333;
-    color: rgb(207, 207, 207);
+    color: rgba(255, 255, 255, 0.973);
 
 }
 
@@ -735,6 +860,15 @@ input {
     padding: 0;
 }
 
+.contactUs .icons {
+    margin-top:30px;
+    
+}
+
+.contactUs i {
+    padding-right: 30px;
+}
+
 .recent h3 {
     text-align: center;
 }
@@ -751,9 +885,9 @@ form {
     position: relative;
 }
 
-input {
+.footerWrapper input {
     border: none;
-    padding: 4px 40px 4px 2px;
+    padding: 4px 50px 4px 10px;
 }
 
 footer button {
