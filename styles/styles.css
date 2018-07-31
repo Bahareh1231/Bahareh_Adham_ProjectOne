@@ -308,7 +308,7 @@ header .line {
 
 .featuresText p {
     font-family: "Open Sans";
-    font-size: 0.555rem;
+    font-size: 0.65rem;
     line-height: 20px;
     color: #999999;
 }
@@ -356,8 +356,8 @@ header .line {
 .teamWrapper .text p {
     color: #999999;
     font-family: "Open Sans";
-    font-size: 0.55rem;
-    line-height: 24px;
+    font-size: 0.65rem;
+    line-height: 20px;
 
 }
 
@@ -506,7 +506,7 @@ header .line {
 }
 
 .secondaryText p {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     font-family: "Open Sans";
     margin-top: 25px;
     line-height: 25px;
@@ -867,6 +867,11 @@ input {
 
 .contactUs i {
     padding-right: 30px;
+}
+
+.contactUs a {
+    text-transform: none;
+    color: white;
 }
 
 .recent h3 {
